@@ -27,7 +27,7 @@
 header {
     background-color: #FFF8F3;
     background: url("../images/developer.png"), url("/images/header_bg.png"), #FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     padding-top: 50px;
     background-repeat: no-repeat;
 }
@@ -97,6 +97,7 @@ align-items: center;
 .section-headind{
     max-width: 1140px;
     text-align: center;
+    margin: 0 auto;
 
 }
 .section-headind h2{
@@ -121,6 +122,114 @@ align-items: center;
 }
 #about .about-info h4{
     font-size: 20px;
-    line-height: 30px;
+    /* line-height: 30px; */
     font-weight: bold;
+}
+#skills, #resume {
+    padding-top: 130px;
+}
+#skills .skills-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#skills .skills-box{
+    display: flex;
+    gap: 24px;
+
+}
+.skills-box .skill-card{
+    padding: 30px;
+    max-width: 267px;
+    box-shadow: 0 4PX 50PX 0 #00000025;
+}
+.skills-box .skill-card img{
+    max-width: 44px;
+    margin-bottom: 30PX;
+}
+.skill-card h3{
+    font-size: 20PX;
+    color: #181818;
+    margin-bottom: 20PX;
+}
+.skill-card P{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28PX;
+}
+#resume .resume-container {
+    width: 71%;
+    max-width: 1140px;
+    margin:113px auto 0;
+    display: flex;
+    gap: 30px;
+}
+.resume-container .section-title{
+    font-size: 30px;
+    color:#474747;
+    margin-bottom: 30px;
+}
+.resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+}
+.card-info{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #757575;
+}
+.card-text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+.resume-container hr{
+    margin: 30px 0;
+}
+.text-center{
+    text-align: center;
+}
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+footer .footer-section{
+    width: 71%;
+    max-width: 1140p;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.footer-section .social{
+    max-width: 562px;
+}
+.footer-section h2{
+    font-size: 35PX;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-section p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.icons a{
+    margin-right: 24px;
+}
+.footer-section .form .in{
+    width: 441px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
 }
